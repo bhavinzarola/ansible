@@ -1,3 +1,8 @@
 - host: all
   tasks:
     - ping:
+
+- name: First Playbook with name key
+  hosts: all
+  task:
+    - ping:
