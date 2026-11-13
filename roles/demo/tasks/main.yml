@@ -1,0 +1,3 @@
+- name: print vars
+  debug:
+    msg: rol default var - {{ url_default }}, role vars - {{ url_var }}
